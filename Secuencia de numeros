@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int N, contador = 0, j = 1;
+    cin >> N;
+    while(N >= contador)
+    {
+        for(j; contador > j; j++)
+            cout << j << ",";
+        for(j; j > 1; j--)
+            cout << j << ",";
+        contador++;
+    }
+    cout << 1 << endl;
+}
